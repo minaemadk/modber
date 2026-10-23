@@ -1,0 +1,381 @@
+@media (min-width: 100px){
+     body aside{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+    .child7{
+        display: none;
+    }
+}
+
+@media (min-width: 665px){
+    section.one .child1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 60%;
+        margin-top: 13px;
+        position: relative;
+        right:110px;
+    }
+    section.one .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .online{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    color: green;
+    background-color:#F0FDF4;
+    padding: 15px;
+}
+.online p{
+    margin-top: -20px;
+}
+.two-picture button{
+   background-color: white;
+}
+main{
+    margin-right: 20%;
+}
+body aside{
+    display: flex;
+    position: fixed;
+    right: 0;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+body aside .two-two{
+display: none;
+}
+.child3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.three,
+.four,
+.five{
+    width: 370px;
+}
+.child4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eight article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top:2px;
+}
+.eight div{
+    text-align: center;
+    margin-top: 5px;
+}
+.child6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nine,
+.child5,
+.twelvy{
+    width:calc(100%/3);
+}
+.eleven figure .account{
+    position: relative;
+    top: 15px;
+    right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.eleven figure .account1{
+    position: relative;
+    top: 15px;
+    right: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    color: red;
+}
+.child7{
+    display: block;
+}
+.six{
+    display: none;
+}
+.eight{
+    display: none;
+}
+.eight1{
+    margin-top: 20px;
+    height: fit-content;
+    border: 2px solid black;
+    background-color: white;
+    margin-inline: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-right: 30px;
+}
+.eight1 div h4{
+    font-size: 30px;
+    font-size: 800;
+}
+.eight1 div p{
+    margin-top: -6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.eight1 figure .internet{
+height: 35px;
+border-radius: 17px;
+background-color: #DBEAFE;
+color: #155DFC;
+padding: 10px;
+}
+.eight1 figure{
+    background-color: #F9FAFB;
+    width: 50%;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.eight1 figure p{
+    margin-top: 5px;
+color: rgba(0, 0, 0, 0.6);
+}
+.eight1 figure h5{
+    margin-top: -17px;
+}
+.eight1 figure .red{
+    margin-top: -5px;
+    color: red;
+    font-weight: 600;
+}
+.eight1 figure picture{
+    margin-top: 10px;
+}
+.eight1 figure .bolt{
+height: 35px;
+border-radius: 17px;
+background-color: #FEF9C2;
+color: #D08700;
+padding: 10px;
+}
+.eight1 figure .orange{
+    margin-top: -5px;
+    color: #D08700;
+    font-weight: 600;
+}
+.path{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+.eight1 figure .phone{
+height: 35px;
+border-radius: 17px;
+background-color: #DBFCE7;
+color: #00A63E;
+padding: 10px;
+}
+.eight1 figure .green{
+    margin-top: -5px;
+    color: #00A63E;
+    font-weight: 600;
+}
+.eight1 figure .desktop{
+height: 35px;
+border-radius: 17px;
+background-color: #FFE2E2;
+color: #ED3941;
+padding: 10px;
+}
+.six1{
+    margin-top: 20px;
+    height: 320px;
+    border: 2px solid black;
+    background-color: white;
+    margin-inline: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-right: 30px;
+}
+.six1 h4{
+    font-size: 20px;
+    margin-top: -20px;
+    font-weight: 600;
+}
+.six1 .create{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #EFF6FF;
+    border-left: 7px solid blue;
+    gap: 10px;
+    background-color:#EFF6FF ;
+    border-radius: 10px;
+    padding: 2px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.six1 .create picture .fa-thin{
+    border: 1px solid rgba(#DBEAFE, 0.3);
+    padding: 3px;
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+    background-color:#DBEAFE ;
+    color: blue;
+}
+.six1 figcaption h6{
+    font-size: 15px;
+    font-weight: 700;
+}
+.six1 figcaption p{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+.six1 figure .account{
+    margin-right: 90px;
+    font-size: 15px;
+    color:blue ;
+}
+.six1 .visa{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #EFF6FF;
+    border-left: 7px solid #06CA54;
+    gap: 10px;
+    background-color:#F0FDF4 ;
+    border-radius: 10px;
+    padding: 2px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+.visa picture .fa-thin{
+    border: 1px solid rgba(#DBFCE7, 0.3);
+    padding: 3px;
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+    background-color:#DBEAFE ;
+    color: #06CA54;
+}
+.six1 figcaption h6{
+    font-size: 15px;
+    font-weight: 700;
+}
+.six1 figcaption p{
+    width: 110%;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+.visa .account{
+    margin-right: 80px;
+    font-size: 15px;
+    color:#06CA54 ;
+}
+.six1 .line{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+.six1 button{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    color:blue;
+    background-color: white;
+    border: none;
+}
+.eight1 div{
+    text-align: center;
+    margin-top: -8px;
+}
+.seven{
+    margin-top: 20px;
+    height: fit-content;
+    width: 60%;
+    border: 2px solid black;
+    background-color: white;
+    margin-inline: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-right: 30px;
+}
+}
+ @media screen and (min-width: 1000px){
+    body aside{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    right: 0;
+    padding-bottom: 20px;
+    overflow: auto;
+    }
+    section.one .child1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 100%;
+        margin-top: 13px;
+        position: relative;
+        right:300px;
+    }
+    .eleven figure .account{
+    position: relative;
+    top: 15px;
+    right: 90px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.eleven figure .account1{
+    position: relative;
+    top: 15px;
+    right: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    color: red;
+}
+
+main{
+    margin-right: 21%;
+}
+body aside .two-two{
+display: block;
+}
+body aside .two-two .onee{
+    width: 175px;
+}
+.seven{
+    width: 70%;
+}
+ }
